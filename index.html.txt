@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramesh Electricals</title>
+
+<style>
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #f5f5f5;
+}
+
+/* BANNER */
+.banner {
+    background: linear-gradient(90deg, #004aad, #ffd700);
+    text-align: center;
+    padding: 35px;
+    animation: slideDown 1s ease;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 32px;
+    color: black;
+}
+
+.banner p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+/* SECTION */
+.section, .contact {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    animation: fadeUp 1s ease;
+}
+
+/* BUTTON */
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #25D366;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #1ebe5d;
+    transform: scale(1.05);
+}
+
+/* RATING */
+.rating {
+    font-size: 22px;
+    color: gold;
+}
+
+/* ANIMATIONS */
+@keyframes slideDown {
+    from {opacity:0; transform: translateY(-50px);}
+    to {opacity:1; transform: translateY(0);}
+}
+
+@keyframes fadeUp {
+    from {opacity:0; transform: translateY(30px);}
+    to {opacity:1; transform: translateY(0);}
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- BANNER -->
+<div class="banner">
+    <h1>RAMESH-ELECTRITION</h1>
+    <p>Sales and Services</p>
+</div>
+
+<!-- DESCRIPTION -->
+<div class="section">
+    <h2>Description</h2>
+    <p>
+        We provide electrical repair, installation, and home services.
+        We also buy and sell electrical items with trusted quality.
+    </p>
+</div>
+
+<!-- REPAIR -->
+<div class="section">
+    <h2>Things We Can Repair</h2>
+    <ul>
+        <li>Fans</li>
+        <li>Refrigerators</li>
+        <li>Washing Machines</li>
+        <li>Coolers</li>
+        <li>Mixi & Kitchen Appliances</li>
+        <li>DJ Speakers & Woofers</li>
+    </ul>
+</div>
+
+<!-- CONTACT -->
+<div class="contact">
+    <h2>Contact</h2>
+    <p><b>Phone:</b> 9848691711</p>
+    <p><b>Location:</b> Secunderabad, Bolarum, near Bolarum Bus Stop</p>
+
+    <!-- WORKING BUTTONS -->
+    <a class="btn" href="https://wa.me/919848691711" target="_blank">💬 WhatsApp</a>
+    <a class="btn" href="tel:9848691711">📞 Call Now</a>
+
+    <!-- RATING -->
+    <h3>⭐ Customer Rating</h3>
+    <div class="rating">★★★★★</div>
+</div>
+
+</body>
+</html>
